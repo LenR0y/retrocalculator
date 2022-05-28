@@ -1,0 +1,183 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  font-family: sans-serif;
+  min-height: 100vh;
+  background-image: url(visual/thomas-t-OPpCbAAKWv8-unsplash.jpg);
+}
+
+.logoImg {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  padding: 0px 0px 0px 5px;
+}
+
+.width-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+
+.calc-header {
+  font-weight: 900;
+  text-align: end;
+  padding: 12px;
+  color: #1c121a;
+  border: 2px solid #1c121a;
+  border-radius: 10px;
+  background: black;
+}
+
+.calc-model {
+  margin: 1px 5px 20px;
+  font-size: 20px;
+  border-bottom: 0.5px solid red;
+  color: white;
+}
+
+.screen {
+  height: 100px;
+  border: 3px solid #495057;
+  border-radius: 8px;
+  background: #b5c99a;
+  box-shadow: inset 0px 1px 2px 1px black;
+}
+
+.solarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 8px;
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #bc3908;
+}
+
+.solar {
+  color: white;
+  text-shadow: 2px 0 grey;
+}
+
+.upper-screen,
+.main-screen {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 12px;
+  color: black;
+}
+
+.upper-screen {
+  height: 30px;
+  font-size: 20px;
+}
+
+.main-screen {
+  height: 70px;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.calc-container {
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 380px;
+  height: 660px;
+  border: 3px solid black;
+  border-radius: 20px;
+  background: #d7c9aa;
+  margin: 24px;
+  padding: 12px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+  gap: 6px;
+  margin: 12px 0px 0px;
+}
+
+.button-column {
+  flex: 1;
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.calc-button {
+  flex: 1;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  background: #495057;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  box-shadow: 0 4px grey;
+}
+
+.calc-button:focus {
+  transform: translateY(2px);
+  box-shadow: 0 1px;
+  outline: none;
+}
+
+.calc-button.brown {
+  border: none;
+  color: white;
+  background: #495057;
+  box-shadow: 0 4px grey;
+}
+
+.calc-button.brown:focus {
+  transform: translateY(2px);
+  box-shadow: 0 1px;
+  outline: none;
+}
+
+.calc-button.clear {
+  border: none;
+  color: white;
+  background: #fb5607;
+  box-shadow: 0 4px #f77f00;
+}
+
+.calc-button.clear:focus {
+  transform: translateY(2px);
+  box-shadow: 0 1px;
+  outline: none;
+}
+
+.calc-button.black {
+  background-color: #656d4a;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 50px;
+  color: black;
+  font-weight: bolder;
+  /* background-color: white; */
+}
